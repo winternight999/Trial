@@ -1,0 +1,427 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial,Sans-Serif;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  height:65px ;
+  width:100%;
+  gap: 5px;
+ /* background-color:#333; */
+  } 
+.nav_logo{
+  display: flex;
+  height:60px;
+  width: 135px;
+ /* background-color: black; */
+}
+.logo{
+height:60px;
+width: 130px;
+padding:10px;
+margin:2px,10px,0px,25px;
+padding-left: 5px;
+padding-top: 5px;
+background-image:url("Flipkart_logo.png");
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+.nav_icon{
+ display:flex;
+ justify-content:flex-end;
+  gap: 8px;
+  margin-left: 25px;
+  margin-bottom: 13px;
+ /*  background-color: white; */
+  }
+ .nav_icon i{
+  font-size: 23px;
+  color:black;
+ }
+ .menu_button i{
+   font-size: 20px;
+   margin-left: 5px;
+ }
+ .mobile{
+   margin-right:3px ;
+ }
+.user_sign{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.user_sign a{
+  display: flex;
+  text-decoration: none;
+}
+.user_sign p{
+margin: 0px;
+color: black;
+padding-top: 5px;
+text-decoration: none;
+font-size: 15px;
+font-weight: 50px;
+}
+.location{
+  display: flex;
+  font-weight: 20px;
+  gap:5px;
+}
+.location a{
+  text-decoration: none;
+  color: blue;
+}
+/* Outer container */
+.searchbar{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  height:45px;
+  width: 360px;
+  /* background-color:grey; */
+}
+.search{
+  position: relative;
+  text-decoration: none;
+  height: 100%;
+  width: 85%;
+  border: 2px solid skyblue;
+  background-color: white;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.search i{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  top: 12px;
+  padding-left: 2px;
+  font-size: 20px;
+}
+.search input{
+  height: 100%;
+  width:100%;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  background-color: transparent;
+}
+.banner{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 160px;
+width: 360px;
+/* background-color: #777; */
+}
+.banner_img{
+  height: 158px;
+  width: 90%;
+  /* background-color: brown; */
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.image1{
+  background-image: url("banner2.jpeg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.product_block{
+  display: flex;
+  height:150px ;
+  width:360px;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* background-color: #333;( */
+}
+.product1{
+flex-direction: column;
+height: 53px;
+width: 115px;
+margin-left: 5px;
+/* background-color: blue; */
+}
+.product_img1{
+  height: 100%;
+  width: 100%;
+  background-image: url("minutes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.product1 p{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 4px;
+}
+.product_item{
+ align-items: center;
+ justify-content: center;
+ height: 53px;
+ width:40px;
+ flex-direction: column;
+ /* background-color: black; */
+ border-radius: 5px;
+}
+.item_img{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius:5px;
+}
+.product_item p{
+  font-size: 12px;
+  font-weight:401;
+  text-align: center;
+  margin-top: 2px;
+}
+.mobiles{
+  background-image: url("mobile.png");
+}
+.Food{
+  background-image: url("Food.png");
+}
+.home{
+  background-image: url("Home.png");
+}
+.fashion{
+  background-image: url("fashion.png");
+}
+/* second prduct line */
+ .product_item1{
+ align-items: center;
+ justify-content: center;
+ height: 53px;
+ width:40px;
+ margin-top: 25px;
+ margin-left: 5px;
+ flex-direction: column;
+ /* background-color: black; */
+ border-radius: 5px;
+}
+.item_img1{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  margin-top: ;
+  margin-left: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius:5px;
+}
+.product_item1 p{
+  font-size: 12px;
+  font-weight:401;
+  text-align: center;
+  margin-top: 2px;
+}
+.grocery{
+  background-image: url("grocery.png");
+}
+.travel{
+  background-image: url("travel.png");
+}
+.appliances{
+ background-image: url("appliancess.jpg"); 
+}
+
+.beauty1{
+  background-image: url("beauty.png");
+  margin-left: 3px;
+}
+.furniture{
+  background-image: url("Wood.jpg");
+  margin-left: 3px;
+}
+.main1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  width: 360px;
+  /* background-color:brown; */
+}
+.popular{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 510px;
+  width: 310px;
+  background-color: #C7B8EA;
+  border-radius: 10px;
+}
+.popular_2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+  height:450px;
+  width: 279px;
+  gap: 12px;
+  border-radius: 8px;
+  background-color:#Ffffff ;
+}
+.popular_pick{
+  display: flex;
+  height:200px ;
+  width: 120px;
+  flex-direction: column;
+  background-color: transparent;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+
+}
+.popular_pick1{
+  display:block;
+  height: 85%;
+  width: 100%;
+  /* background-color:  #F0F0F0; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+} 
+.popular_title{
+  display: flex;
+  /* align-self:flex-start ; */
+  margin-left: 13px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 100%;
+  font-size:20px; 
+  /* background-color: blue; */
+}
+.text_normal{
+  font-size: 12px;
+  margin-top: 3px;
+  text-align: left;
+}
+.text_bold{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top:3px;
+  text-align:left;
+}
+/* .text_bold_s{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-left: 0px;
+  text-align:left;
+}*/
+.shirt{
+  background-image: url("top1.jpg");
+}
+.hair{
+  background-image: url("top2.jpg");
+}
+.clothes{
+  background-image: url("top3.jpg");
+}
+.remote{
+  background-image: url("top4.jpg");
+ }
+ .underline{
+  height: 4px;
+  width: 100%;
+   font-weight: bold;
+   background-color: grey;
+ }
+.sponserd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 13px;
+  height:360px;
+  width:360px;
+  /* background-color: grey; */
+}
+.sponserd_item{
+  height: 100px;
+  width:100px;
+  /* background-color: black; */
+}
+.sponserd_img{
+  display: block;
+  height: 100%;    
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat:no-repeat;
+  border-radius: 10px;
+}
+.cut_text{
+  text-decoration:line-through;
+}
+ .sponserd_title{
+  display: flex;
+  /* align-self:flex-start ; */
+  margin-left: 5px;
+  text-align: left;
+  width: 100%;
+  font-size:30px; 
+  /* background-color: blue; */
+} 
+.text_normal1{
+  font-size: 12px;
+  margin-top: 3px;
+  text-align: center;
+}
+.text_bold1{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+.text_bold12{
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+.pods{
+  background-image: url("sponserd.png");
+}
+.boat{
+  background-image: url("sponserd2.png");
+}
+.pods2{
+  background-image: url("sponserd3.png");
+}
+.watch{
+  background-image: url("sponserd4.png");
+}
+.watch2{
+  background-image: url("sponserd5.png");
+}
+.face{
+  background-image: url("sponserd6.png");
+}
